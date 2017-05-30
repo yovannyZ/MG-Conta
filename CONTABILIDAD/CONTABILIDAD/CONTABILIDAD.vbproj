@@ -549,6 +549,8 @@
     <Compile Include="MOD COI\DIALOGOS\REFERENCIA_RETENCION.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MOD COI\DIFERIDOS\AccesData\DBHelper.vb" />
+    <Compile Include="MOD COI\DIFERIDOS\AccesData\IDiferidoDao.vb" />
     <Compile Include="MOD COI\DIFERIDOS\CONSULTA_DIFERIDO.Designer.vb">
       <DependentUpon>CONSULTA_DIFERIDO.vb</DependentUpon>
     </Compile>
@@ -568,6 +570,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MOD COI\DIFERIDOS\Modelo\IDiferido.vb" />
+    <Compile Include="MOD COI\DIFERIDOS\Modelo\IDiferidoSecuencia.vb" />
+    <Compile Include="MOD COI\DIFERIDOS\Modelo\TDiferido.vb" />
+    <Compile Include="MOD COI\DIFERIDOS\Modelo\TDiferidoCC.vb" />
     <Compile Include="MOD COI\MAESTROS\CUENTA_CIERRE_PERIODO.designer.vb">
       <DependentUpon>CUENTA_CIERRE_PERIODO.vb</DependentUpon>
     </Compile>

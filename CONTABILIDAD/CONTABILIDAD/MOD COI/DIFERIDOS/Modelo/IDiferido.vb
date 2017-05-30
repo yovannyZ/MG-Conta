@@ -82,6 +82,7 @@ Public Class IDiferido
             _codCuenta = value
         End Set
     End Property
+
     Public Property Glosa() As String
         Get
             Return (_glosa)
@@ -90,6 +91,7 @@ Public Class IDiferido
             _glosa = value
         End Set
     End Property
+
     Public Property FechaVigenciaDel() As Date
         Get
             Return (_fechaVigenciaDel)
@@ -98,6 +100,7 @@ Public Class IDiferido
             _fechaVigenciaDel = value
         End Set
     End Property
+
     Public Property FechaVigenciaAl() As Date
         Get
             Return (_fechaVigenciaAl)
@@ -106,68 +109,85 @@ Public Class IDiferido
             _fechaVigenciaAl = value
         End Set
     End Property
-    Public Property FeAño() As String
+
+    Public Property FechaIniOpe() As Date
         Get
-            Return (_feAño)
+            Return (_fechaIniOpe)
         End Get
-        Set(ByVal value As String)
-            _feAño = value
+        Set(ByVal value As Date)
+            _fechaIniOpe = value
         End Set
     End Property
-    Public Property FeAño() As String
+
+    Public Property Importe() As Decimal
         Get
-            Return (_feAño)
+            Return (_importe)
         End Get
-        Set(ByVal value As String)
-            _feAño = value
+        Set(ByVal value As Decimal)
+            _importe = value
         End Set
     End Property
-    Public Property FeAño() As String
+
+    Public Property NroCuotas() As Integer
         Get
-            Return (_feAño)
+            Return (_nroCuotas)
         End Get
-        Set(ByVal value As String)
-            _feAño = value
+        Set(ByVal value As Integer)
+            _nroCuotas = value
         End Set
     End Property
-    Public Property FeAño() As String
+
+    Public Property NroCuotasTran() As Integer
         Get
-            Return (_feAño)
+            Return (_nroCuotasTran)
         End Get
-        Set(ByVal value As String)
-            _feAño = value
+        Set(ByVal value As Integer)
+            _nroCuotasTran = value
         End Set
     End Property
-    Public Property FeAño() As String
+
+    Public Property CodAux() As String
         Get
-            Return (_feAño)
+            Return (_codAux)
         End Get
         Set(ByVal value As String)
-            _feAño = value
+            _codAux = value
         End Set
     End Property
-    Public Property FeAño() As String
+
+    Public Property CodComp() As String
         Get
-            Return (_feAño)
+            Return (_codComp)
         End Get
         Set(ByVal value As String)
-            _feAño = value
+            _codComp = value
         End Set
     End Property
-    Public Property FeAño() As String
+
+    Public Property NroComp() As String
         Get
-            Return (_feAño)
+            Return (_nroComp)
         End Get
         Set(ByVal value As String)
-            _feAño = value
+            _nroComp = value
         End Set
     End Property
-    Public Property FeAño() As String
+
+    Public Property ImpAcumulado() As Decimal
         Get
-            Return (_feAño)
+            Return (_impAcumulado)
         End Get
-        Set(ByVal value As String)
-            _feAño = value
+        Set(ByVal value As Decimal)
+            _impAcumulado = value
+        End Set
+    End Property
+
+    Public Property ImpInicalAño() As Decimal
+        Get
+            Return (_impInicalAño)
+        End Get
+        Set(ByVal value As Decimal)
+            _impInicalAño = value
         End Set
     End Property
 
