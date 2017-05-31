@@ -343,7 +343,12 @@ Public Class GENERACION_DIFERIDOS
 #Region "Botones"
 
     Private Sub btnGenerar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGenerar.Click
-        GRABAR_DIFERIDO()
+        Dim frmIDiferidos As New FrmIDiferido()
+
+        frmIDiferidos.FeAño = cboAño.Text
+        frmIDiferidos.FeMes = cboMes.Text
+        frmIDiferidos.ShowDialog()
+        ' GRABAR_DIFERIDO()
     End Sub
 
     Private Sub btnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalir.Click

@@ -59,4 +59,7 @@ Public Class frmDialogoDiferidoSecuencia
 
 
     
+    Private Sub btnCancelar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCancelar.Click
+
+    End Sub
 End Class

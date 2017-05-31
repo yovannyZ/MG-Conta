@@ -8,11 +8,18 @@ Public Class DBHelper
         Return param
     End Function
 
-    Public Shared Function ExecuteNonQuery(ByVal query As String, ByVal parameters As SqlParameter()) As Boolean
+    Public Shared Function ExecuteNonQuery(ByVal query As String, ByVal parameters As SqlParameter(), Optional ByVal tr As SqlTransaction = Nothing, Optional ByVal cn As SqlConnection = Nothing) As Boolean
         Dim _exito As Boolean = False
-        con.Open()
-        Dim cmd As New SqlCommand(query, con)
-        cmd.CommandType = CommandType.StoredProcedure
+        Dim cmd As SqlCommand
+        If IsNothing(tr) Then
+            con.Open()
+            cmd = New SqlCommand(query, con)
+            cmd.CommandType = CommandType.StoredProcedure
+        Else
+            cmd = New SqlCommand(query, cn, tr)
+            cmd.CommandType = CommandType.StoredProcedure
+        End If
+       
 
         If Not IsNothing(parameters) Then
             For Each param As SqlParameter In parameters
@@ -21,12 +28,16 @@ Public Class DBHelper
         End If
 
         _exito = cmd.ExecuteNonQuery > 0
-        con.Close()
+
+        If IsNothing(tr) Then
+            con.Close()
+        End If
+
         Return _exito
     End Function
 
     Public Shared Function ExecuteDataReader(ByVal query As String, Optional ByVal parameters As SqlParameter() = Nothing) As Object
-        Dim obj As New Object
+        Dim dr As SqlDataReader
         con.Open()
         Dim cmd As New SqlCommand(query, con)
         cmd.CommandType = CommandType.StoredProcedure
@@ -37,10 +48,8 @@ Public Class DBHelper
             Next
         End If
 
-        obj = cmd.ExecuteScalar()
-        con.Close()
-
-        Return obj
+        dr = cmd.ExecuteReader(CommandBehavior.CloseConnection)
+        Return dr
     End Function
 
 End Class

@@ -167,5 +167,13 @@ Public Class TDiferido
         End Set
     End Property
 
-
+    Private _stCierre As Char
+    Public Property StCierre() As Char
+        Get
+            Return (_stCierre)
+        End Get
+        Set(ByVal value As Char)
+            _stCierre = value
+        End Set
+    End Property
 End Class

@@ -64,10 +64,10 @@ Public Class IDiferidoSecuencia
 
     Public Property MesDis() As String
         Get
-            Return _añoDif
+            Return _mesDif
         End Get
         Set(ByVal value As String)
-            _añoDif = value
+            _mesDif = value
         End Set
     End Property
 

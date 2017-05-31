@@ -551,10 +551,31 @@
     </Compile>
     <Compile Include="MOD COI\DIFERIDOS\AccesData\DBHelper.vb" />
     <Compile Include="MOD COI\DIFERIDOS\AccesData\IDiferidoDao.vb" />
+    <Compile Include="MOD COI\DIFERIDOS\AccesData\IDiferidoSecuenciaDao.vb" />
+    <Compile Include="MOD COI\DIFERIDOS\AccesData\TDiferidoCCDao.vb" />
+    <Compile Include="MOD COI\DIFERIDOS\AccesData\TDiferidoDao.vb" />
     <Compile Include="MOD COI\DIFERIDOS\CONSULTA_DIFERIDO.Designer.vb">
       <DependentUpon>CONSULTA_DIFERIDO.vb</DependentUpon>
     </Compile>
     <Compile Include="MOD COI\DIFERIDOS\CONSULTA_DIFERIDO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOD COI\DIFERIDOS\FrmDiferidoDetalle.Designer.vb">
+      <DependentUpon>FrmDiferidoDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOD COI\DIFERIDOS\FrmDiferidoDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOD COI\DIFERIDOS\FrmIDiferido.Designer.vb">
+      <DependentUpon>FrmIDiferido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOD COI\DIFERIDOS\FrmIDiferido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOD COI\DIFERIDOS\FrmMesesDifrido.Designer.vb">
+      <DependentUpon>FrmMesesDifrido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOD COI\DIFERIDOS\FrmMesesDifrido.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MOD COI\DIFERIDOS\GENERACION_DIFERIDOS.Designer.vb">
@@ -3732,6 +3753,10 @@
       <DependentUpon>frmConsultaCuentasCobrarRetenciones.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="MOD COI\DIALOGOS\frmDialogoDiferidoSecuencia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDialogoDiferidoSecuencia.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MOD COI\DIALOGOS\frmReferenciaPercepcion.resx">
       <DependentUpon>frmReferenciaPercepcion.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -3743,6 +3768,18 @@
     <EmbeddedResource Include="MOD COI\DIALOGOS\REFERENCIA_RETENCION.resx">
       <DependentUpon>REFERENCIA_RETENCION.vb</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOD COI\DIFERIDOS\FrmDiferidoDetalle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDiferidoDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOD COI\DIFERIDOS\FrmIDiferido.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmIDiferido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOD COI\DIFERIDOS\FrmMesesDifrido.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMesesDifrido.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MOD COI\DIFERIDOS\INGRESO_DIFERIDO.resx">
       <SubType>Designer</SubType>
@@ -6396,6 +6433,7 @@
     <None Include="Resources\16 %28Folder%293.ico" />
     <None Include="Resources\16 %28Ok%2911.ico" />
     <Content Include="Resources\7%28453%29.jpg" />
+    <None Include="Resources\anadir.png" />
     <None Include="Web References\MG_WSFacturacion\FacturacionServices.disco" />
     <None Include="Resources\logo_sunat.png" />
     <None Include="Web References\FacturacionNWS\FacturacionNService.disco" />

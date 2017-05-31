@@ -20,6 +20,7 @@ Public Class IDiferido
     Private _impAcumulado As Decimal
     Private _impInicalAño As Decimal
 
+
     Public Property FeAño() As String
         Get
             Return (_feAño)
@@ -191,5 +192,5 @@ Public Class IDiferido
         End Set
     End Property
 
-
+    
 End Class

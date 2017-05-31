@@ -22,15 +22,15 @@ Partial Class frmDialogoDiferidoSecuencia
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.dgvFechaDif = New System.Windows.Forms.DataGridView
-        Me.btnAgregarFechaDiferir = New System.Windows.Forms.Button
-        Me.btnAceptar = New System.Windows.Forms.Button
-        Me.btnCancelar = New System.Windows.Forms.Button
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column2 = New System.Windows.Forms.DataGridViewCheckBoxColumn
+        Me.btnAgregarFechaDiferir = New System.Windows.Forms.Button
+        Me.btnAceptar = New System.Windows.Forms.Button
+        Me.btnCancelar = New System.Windows.Forms.Button
         CType(Me.dgvFechaDif, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -40,38 +40,11 @@ Partial Class frmDialogoDiferidoSecuencia
         Me.dgvFechaDif.AllowUserToDeleteRows = False
         Me.dgvFechaDif.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvFechaDif.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column4, Me.Column3, Me.Column1, Me.Column2})
-        Me.dgvFechaDif.Location = New System.Drawing.Point(17, 13)
+        Me.dgvFechaDif.Location = New System.Drawing.Point(23, 16)
+        Me.dgvFechaDif.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dgvFechaDif.Name = "dgvFechaDif"
-        Me.dgvFechaDif.Size = New System.Drawing.Size(288, 150)
+        Me.dgvFechaDif.Size = New System.Drawing.Size(384, 185)
         Me.dgvFechaDif.TabIndex = 0
-        '
-        'btnAgregarFechaDiferir
-        '
-        Me.btnAgregarFechaDiferir.Location = New System.Drawing.Point(220, 168)
-        Me.btnAgregarFechaDiferir.Name = "btnAgregarFechaDiferir"
-        Me.btnAgregarFechaDiferir.Size = New System.Drawing.Size(55, 23)
-        Me.btnAgregarFechaDiferir.TabIndex = 1
-        Me.btnAgregarFechaDiferir.Text = "+Meses"
-        Me.btnAgregarFechaDiferir.UseVisualStyleBackColor = True
-        '
-        'btnAceptar
-        '
-        Me.btnAceptar.Location = New System.Drawing.Point(69, 197)
-        Me.btnAceptar.Name = "btnAceptar"
-        Me.btnAceptar.Size = New System.Drawing.Size(75, 23)
-        Me.btnAceptar.TabIndex = 2
-        Me.btnAceptar.Text = "&Aceptar"
-        Me.btnAceptar.UseVisualStyleBackColor = True
-        '
-        'btnCancelar
-        '
-        Me.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCancelar.Location = New System.Drawing.Point(179, 197)
-        Me.btnCancelar.Name = "btnCancelar"
-        Me.btnCancelar.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancelar.TabIndex = 3
-        Me.btnCancelar.Text = "&Cancelar"
-        Me.btnCancelar.UseVisualStyleBackColor = True
         '
         'Column4
         '
@@ -87,9 +60,9 @@ Partial Class frmDialogoDiferidoSecuencia
         '
         'Column1
         '
-        DataGridViewCellStyle2.Format = "d"
-        DataGridViewCellStyle2.NullValue = Nothing
-        Me.Column1.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.Format = "d"
+        DataGridViewCellStyle1.NullValue = Nothing
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle1
         Me.Column1.HeaderText = "Año"
         Me.Column1.Name = "Column1"
         Me.Column1.Width = 50
@@ -100,15 +73,47 @@ Partial Class frmDialogoDiferidoSecuencia
         Me.Column2.Name = "Column2"
         Me.Column2.Width = 50
         '
+        'btnAgregarFechaDiferir
+        '
+        Me.btnAgregarFechaDiferir.Location = New System.Drawing.Point(293, 207)
+        Me.btnAgregarFechaDiferir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAgregarFechaDiferir.Name = "btnAgregarFechaDiferir"
+        Me.btnAgregarFechaDiferir.Size = New System.Drawing.Size(73, 28)
+        Me.btnAgregarFechaDiferir.TabIndex = 1
+        Me.btnAgregarFechaDiferir.Text = "+Meses"
+        Me.btnAgregarFechaDiferir.UseVisualStyleBackColor = True
+        '
+        'btnAceptar
+        '
+        Me.btnAceptar.Location = New System.Drawing.Point(92, 242)
+        Me.btnAceptar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAceptar.Name = "btnAceptar"
+        Me.btnAceptar.Size = New System.Drawing.Size(100, 28)
+        Me.btnAceptar.TabIndex = 2
+        Me.btnAceptar.Text = "&Aceptar"
+        Me.btnAceptar.UseVisualStyleBackColor = True
+        '
+        'btnCancelar
+        '
+        Me.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnCancelar.Location = New System.Drawing.Point(239, 242)
+        Me.btnCancelar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCancelar.Name = "btnCancelar"
+        Me.btnCancelar.Size = New System.Drawing.Size(100, 28)
+        Me.btnCancelar.TabIndex = 3
+        Me.btnCancelar.Text = "&Cancelar"
+        Me.btnCancelar.UseVisualStyleBackColor = True
+        '
         'frmDialogoDiferidoSecuencia
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(323, 239)
+        Me.ClientSize = New System.Drawing.Size(431, 294)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.btnAceptar)
         Me.Controls.Add(Me.btnAgregarFechaDiferir)
         Me.Controls.Add(Me.dgvFechaDif)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmDialogoDiferidoSecuencia"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Secuencia Diferidos"

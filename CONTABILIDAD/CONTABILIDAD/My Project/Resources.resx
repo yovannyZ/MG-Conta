@@ -124,6 +124,9 @@
   <data name="16 (Save)11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Save)12.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="16 (Delete)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Delete)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_16__Ok_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Ok).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,12 +138,6 @@
   </data>
   <data name="16 (Delete)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Delete)2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sist_inventarios_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sist_inventarios[1].jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_16__Binoculars_2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Binoculars-2).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16 (Binoculars-2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Binoculars-2)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,9 +157,6 @@
   <data name="16 (Refresh)11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Refresh)11.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sunat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sunat1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="16 (Arrow last)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Arrow last)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,9 +172,6 @@
   <data name="16 (Db next)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Db next).ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_16__Computer_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Computer).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="16 (Address book)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Address book).ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -189,6 +180,9 @@
   </data>
   <data name="16 (Ok)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Ok)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipeo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipeo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="84[1]" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\84[1]1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +193,11 @@
   <data name="_16__View_page_width_3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (View page width-3).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="16 (Binoculars-2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Binoculars-2)2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo_sunat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_sunat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_16__Save_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Save).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,8 +211,11 @@
   <data name="16 (Folder)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Folder)2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="16 (Arrow last)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Arrow last).ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sist_inventarios_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sist_inventarios[1].jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16__Refresh_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Refresh).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_16__Cancel_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Cancel).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,9 +244,6 @@
   <data name="fondo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondo3.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_16__Acrobat_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Acrobat).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="_16__Exit_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Exit).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -262,11 +259,14 @@
   <data name="16 (Folder search)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Folder search).ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_16__File_new_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (File new).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_16__Acrobat_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Acrobat).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16 (Stop-2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Stop-2).ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pegar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pegar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_16__Folder_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Folder).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -283,11 +283,14 @@
   <data name="16 (Align left-4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Align left-4)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_16__Refresh_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Refresh).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Administracion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Administracion.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16 (Save as)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Save as)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16 (Edit-2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Edit-2)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\excel.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -307,8 +310,11 @@
   <data name="16 (Cancel)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Cancel)11.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Administracion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Administracion.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_16__Search_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Search).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16__File_new_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (File new).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16 (Next-set 2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Next-set 2)2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -328,23 +334,17 @@
   <data name="16 (Next-set 2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Next-set 2)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\expand.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="16 (Ok)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Ok)2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="16 (Delete)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Delete)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="16 (Arrow last)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Arrow last).ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16 (File new)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (File new)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="16 (Screen)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Screen)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="16 (Stop-2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Stop-2)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_16__Search_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Search).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ORDEN_20Y_20CONTROL_20DE_20INVENTARIOS_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ORDEN%20Y%20CONTROL%20DE%20INVENTARIOS[1].jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,14 +355,14 @@
   <data name="Administracion11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Administracion11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tipeo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tipeo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_16__Binoculars_2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Binoculars-2).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_16__Save_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Save)2.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="16 (Edit-2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Edit-2)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_16__Computer_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Computer).ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16 (Folder)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Folder)3.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -379,14 +379,14 @@
   <data name="carrito_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\carrito[1].jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pegar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pegar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="16 (Screen)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Screen)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="7(453)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7(453)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="16 (Ok)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16 (Ok)2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sunat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sunat1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16 (Align left-4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Align left-4).ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -397,10 +397,13 @@
   <data name="16 (Print)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Print)1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="16 (Binoculars-2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 (Binoculars-2)2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="16 (Search)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16 (Search)2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo_sunat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_sunat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anadir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anadir.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,11 +1,24 @@
 Imports System.Data.SqlClient
 Public Class IDiferidoDao
 
-    Public Function Listar() As List(Of IDiferido)
+    Private Shared _instancia As IDiferidoDao
+    Public Shared Function ObtenerInstancia() As IDiferidoDao
+        If _instancia Is Nothing Then
+            _instancia = New IDiferidoDao
+        End If
+        Return _instancia
+    End Function
+
+    Public Function Listar(ByVal FeAño As String, ByVal FeMes As String) As List(Of IDiferido)
         Dim lista As New List(Of IDiferido)
 
         Dim query As String = "ListarIDiferido"
-        Dim dr As SqlDataReader = DBHelper.ExecuteDataReader(query)
+
+        Dim Parametros(1) As SqlParameter
+        Parametros(0) = DBHelper.MakeParam("@FeAño", FeAño)
+        Parametros(1) = DBHelper.MakeParam("@FeMEs", FeMes)
+
+        Dim dr As SqlDataReader = DBHelper.ExecuteDataReader(query, Parametros)
 
         If dr.HasRows Then
             Dim iDiferido As IDiferido
@@ -34,8 +47,20 @@ Public Class IDiferidoDao
 
             End While
         End If
-
+        dr.Close()
         Return lista
+    End Function
+
+    Public Function Actualizar(ByVal iDiferido As IDiferido) As Boolean
+        Dim query As String = "ActualizarCuotasIDiferido"
+        Dim Parametros(5) As SqlParameter
+        Parametros(0) = DBHelper.MakeParam("@FeAño", iDiferido.FeAño)
+        Parametros(1) = DBHelper.MakeParam("@FeMes", iDiferido.FeMes)
+        Parametros(2) = DBHelper.MakeParam("@CodDoc", iDiferido.CodDoc)
+        Parametros(3) = DBHelper.MakeParam("@NroDoc", iDiferido.NroDoc)
+        Parametros(4) = DBHelper.MakeParam("@CodPer", iDiferido.CodPer)
+        Parametros(5) = DBHelper.MakeParam("@NroCuotas", iDiferido.NroCuotas)
+        Return DBHelper.ExecuteNonQuery(query, Parametros)
     End Function
 
 End Class
